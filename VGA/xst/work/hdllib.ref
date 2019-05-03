@@ -1,0 +1,8 @@
+AR vga_640x480 vga_640x480 C:/Users/Propietario/Desktop/vga_640x480.vhd sub00/vhpl01 1556845425
+EN top_vga NULL C:/Users/Propietario/Desktop/top_vga.vhd sub00/vhpl06 1556845430
+EN video NULL C:/Users/Propietario/Desktop/video.vhd sub00/vhpl02 1556845426
+EN clkdiv NULL C:/Users/Propietario/Desktop/clkdiv.vhd sub00/vhpl04 1556845428
+AR clkdiv clkdiv C:/Users/Propietario/Desktop/clkdiv.vhd sub00/vhpl05 1556845429
+EN vga_640x480 NULL C:/Users/Propietario/Desktop/vga_640x480.vhd sub00/vhpl00 1556845424
+AR top_vga top_vga C:/Users/Propietario/Desktop/top_vga.vhd sub00/vhpl07 1556845431
+AR video video C:/Users/Propietario/Desktop/video.vhd sub00/vhpl03 1556845427

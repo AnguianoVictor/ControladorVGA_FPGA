@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\Propietario\Desktop\DLP\ControladorVGA_FPGA\VGA\top_vga.ncd
+OUTFILE=C:\Users\Propietario\Desktop\DLP\ControladorVGA_FPGA\VGA\top_vga.bit
+FAMILY=Spartan3E
+PART=xc3s500e-4fg320
+WORKINGDIR=C:\Users\Propietario\Desktop\DLP\ControladorVGA_FPGA\VGA
+LICENSE=WebPack
+USER_INFO=211671293_0_0_970

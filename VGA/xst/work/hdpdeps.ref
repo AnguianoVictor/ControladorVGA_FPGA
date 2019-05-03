@@ -1,0 +1,22 @@
+V3 15
+FL C:/Users/Propietario/Desktop/clkdiv.vhd 2019/05/02.18:53:39 P.20131013
+EN work/clkdiv 1556845428 FL C:/Users/Propietario/Desktop/clkdiv.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/clkdiv/clkdiv 1556845429 \
+      FL C:/Users/Propietario/Desktop/clkdiv.vhd EN work/clkdiv 1556845428
+FL C:/Users/Propietario/Desktop/top_vga.vhd 2019/05/02.20:03:38 P.20131013
+EN work/top_vga 1556845430 FL C:/Users/Propietario/Desktop/top_vga.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/top_vga/top_vga 1556845431 \
+      FL C:/Users/Propietario/Desktop/top_vga.vhd EN work/top_vga 1556845430 \
+      CP vga_640x480 CP video CP clkdiv
+FL C:/Users/Propietario/Desktop/vga_640x480.vhd 2019/05/02.12:48:04 P.20131013
+EN work/vga_640x480 1556845424 FL C:/Users/Propietario/Desktop/vga_640x480.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/vga_640x480/vga_640x480 1556845425 \
+      FL C:/Users/Propietario/Desktop/vga_640x480.vhd EN work/vga_640x480 1556845424
+FL C:/Users/Propietario/Desktop/video.vhd 2019/05/02.19:59:21 P.20131013
+EN work/video 1556845426 FL C:/Users/Propietario/Desktop/video.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/video/video 1556845427 \
+      FL C:/Users/Propietario/Desktop/video.vhd EN work/video 1556845426
