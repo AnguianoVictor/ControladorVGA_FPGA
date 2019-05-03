@@ -44,33 +44,28 @@ Setup/Hold to clock mclk
             |Max Setup to|Max Hold to |                  | Clock  |
 Source      | clk (edge) | clk (edge) |Internal Clock(s) | Phase  |
 ------------+------------+------------+------------------+--------+
-clr         |   -0.273(R)|    1.667(R)|mclk_BUFGP        |   0.000|
+clr         |    5.113(R)|    0.203(R)|mclk_BUFGP        |   0.000|
 ------------+------------+------------+------------------+--------+
+
+Clock mclk to Pad
+------------+------------+------------------+--------+
+            | clk (edge) |                  | Clock  |
+Destination |   to PAD   |Internal Clock(s) | Phase  |
+------------+------------+------------------+--------+
+clk         |    8.777(R)|mclk_BUFGP        |   0.000|
+cs          |   11.061(R)|mclk_BUFGP        |   0.000|
+------------+------------+------------------+--------+
 
 Clock to Setup on destination clock mclk
 ---------------+---------+---------+---------+---------+
                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
-mclk           |    1.425|         |         |         |
+mclk           |    3.842|         |         |         |
 ---------------+---------+---------+---------+---------+
 
-Pad to Pad
----------------+---------------+---------+
-Source Pad     |Destination Pad|  Delay  |
----------------+---------------+---------+
-data<0>        |azul<0>        |   10.579|
-data<1>        |azul<1>        |   10.137|
-data<2>        |verde<0>       |    9.341|
-data<3>        |verde<1>       |    9.027|
-data<4>        |verde<2>       |    9.062|
-data<5>        |rojo<0>        |    9.000|
-data<6>        |rojo<1>        |    7.710|
-data<7>        |rojo<2>        |    8.313|
----------------+---------------+---------+
 
-
-Analysis completed Thu May 02 20:04:14 2019 
+Analysis completed Thu May 02 21:36:23 2019 
 --------------------------------------------------------------------------------
 
 Trace Settings:

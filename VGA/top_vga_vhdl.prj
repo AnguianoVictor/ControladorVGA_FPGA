@@ -1,4 +1,5 @@
 vhdl work "C:\Users\Propietario\Desktop\video.vhd"
 vhdl work "C:\Users\Propietario\Desktop\vga_640x480.vhd"
+vhdl work "C:\Users\Propietario\Desktop\DLP\ControladorVGA_FPGA\VGA\Lectura.vhd"
 vhdl work "C:\Users\Propietario\Desktop\clkdiv.vhd"
 vhdl work "C:\Users\Propietario\Desktop\top_vga.vhd"
