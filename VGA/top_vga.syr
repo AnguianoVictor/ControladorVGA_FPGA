@@ -4,13 +4,13 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.23 secs
+Total CPU time to Xst completion: 0.69 secs
  
 --> Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.23 secs
+Total CPU time to Xst completion: 0.70 secs
  
 --> Reading design: top_vga.prj
 
@@ -104,16 +104,23 @@ Slice Utilization Ratio Delta      : 5
 =========================================================================
 *                          HDL Compilation                              *
 =========================================================================
-Compiling vhdl file "C:/Users/Propietario/Desktop/vga_640x480.vhd" in Library work.
+WARNING:HDLParsers:3607 - Unit work/top_vga is now defined in a different file.  It was defined in "C:/Users/Propietario/Desktop/top_vga.vhd", and is now defined in "C:/Users/Propietario/Desktop/DLP/ControladorVGA_FPGA/VGA/top_vga.vhd".
+WARNING:HDLParsers:3607 - Unit work/top_vga/top_vga is now defined in a different file.  It was defined in "C:/Users/Propietario/Desktop/top_vga.vhd", and is now defined in "C:/Users/Propietario/Desktop/DLP/ControladorVGA_FPGA/VGA/top_vga.vhd".
+WARNING:HDLParsers:3607 - Unit work/clkdiv is now defined in a different file.  It was defined in "C:/Users/Propietario/Desktop/clkdiv.vhd", and is now defined in "C:/Users/Propietario/Desktop/DLP/ControladorVGA_FPGA/VGA/clkdiv.vhd".
+WARNING:HDLParsers:3607 - Unit work/clkdiv/clkdiv is now defined in a different file.  It was defined in "C:/Users/Propietario/Desktop/clkdiv.vhd", and is now defined in "C:/Users/Propietario/Desktop/DLP/ControladorVGA_FPGA/VGA/clkdiv.vhd".
+WARNING:HDLParsers:3607 - Unit work/vga_640x480 is now defined in a different file.  It was defined in "C:/Users/Propietario/Desktop/vga_640x480.vhd", and is now defined in "C:/Users/Propietario/Desktop/DLP/ControladorVGA_FPGA/VGA/vga_640x480.vhd".
+WARNING:HDLParsers:3607 - Unit work/vga_640x480/vga_640x480 is now defined in a different file.  It was defined in "C:/Users/Propietario/Desktop/vga_640x480.vhd", and is now defined in "C:/Users/Propietario/Desktop/DLP/ControladorVGA_FPGA/VGA/vga_640x480.vhd".
+WARNING:HDLParsers:3607 - Unit work/video is now defined in a different file.  It was defined in "C:/Users/Propietario/Desktop/video.vhd", and is now defined in "C:/Users/Propietario/Desktop/DLP/ControladorVGA_FPGA/VGA/video.vhd".
+WARNING:HDLParsers:3607 - Unit work/video/video is now defined in a different file.  It was defined in "C:/Users/Propietario/Desktop/video.vhd", and is now defined in "C:/Users/Propietario/Desktop/DLP/ControladorVGA_FPGA/VGA/video.vhd".
+Compiling vhdl file "C:/Users/Propietario/Desktop/DLP/ControladorVGA_FPGA/VGA/vga_640x480.vhd" in Library work.
 Architecture vga_640x480 of Entity vga_640x480 is up to date.
-Compiling vhdl file "C:/Users/Propietario/Desktop/video.vhd" in Library work.
-Entity <video> compiled.
-Entity <video> (Architecture <video>) compiled.
-Compiling vhdl file "C:/Users/Propietario/Desktop/clkdiv.vhd" in Library work.
+Compiling vhdl file "C:/Users/Propietario/Desktop/DLP/ControladorVGA_FPGA/VGA/video.vhd" in Library work.
+Architecture video of Entity video is up to date.
+Compiling vhdl file "C:/Users/Propietario/Desktop/DLP/ControladorVGA_FPGA/VGA/clkdiv.vhd" in Library work.
 Architecture clkdiv of Entity clkdiv is up to date.
 Compiling vhdl file "C:/Users/Propietario/Desktop/DLP/ControladorVGA_FPGA/VGA/Lectura.vhd" in Library work.
 Architecture arch of Entity lectura is up to date.
-Compiling vhdl file "C:/Users/Propietario/Desktop/top_vga.vhd" in Library work.
+Compiling vhdl file "C:/Users/Propietario/Desktop/DLP/ControladorVGA_FPGA/VGA/top_vga.vhd" in Library work.
 Architecture top_vga of Entity top_vga is up to date.
 
 =========================================================================
@@ -140,7 +147,7 @@ Analyzing Entity <vga_640x480> in library <work> (Architecture <vga_640x480>).
 Entity <vga_640x480> analyzed. Unit <vga_640x480> generated.
 
 Analyzing Entity <video> in library <work> (Architecture <video>).
-WARNING:Xst:819 - "C:/Users/Propietario/Desktop/video.vhd" line 27: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+WARNING:Xst:819 - "C:/Users/Propietario/Desktop/DLP/ControladorVGA_FPGA/VGA/video.vhd" line 27: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
    <data>
 Entity <video> analyzed. Unit <video> generated.
 
@@ -158,16 +165,16 @@ Entity <Lectura> analyzed. Unit <Lectura> generated.
 Performing bidirectional port resolution...
 
 Synthesizing Unit <vga_640x480>.
-    Related source file is "C:/Users/Propietario/Desktop/vga_640x480.vhd".
+    Related source file is "C:/Users/Propietario/Desktop/DLP/ControladorVGA_FPGA/VGA/vga_640x480.vhd".
     Found 10-bit up counter for signal <hcs>.
-    Found 10-bit comparator less for signal <hsync$cmp_lt0000> created at line 54.
+    Found 10-bit comparator less for signal <hsyncm$cmp_lt0000> created at line 56.
     Found 10-bit up counter for signal <vcs>.
     Found 1-bit register for signal <vflag>.
-    Found 10-bit comparator greatequal for signal <vidon$cmp_ge0000> created at line 58.
-    Found 10-bit comparator greatequal for signal <vidon$cmp_ge0001> created at line 58.
-    Found 10-bit comparator less for signal <vidon$cmp_lt0000> created at line 58.
-    Found 10-bit comparator less for signal <vidon$cmp_lt0001> created at line 58.
-    Found 10-bit comparator less for signal <vsync$cmp_lt0000> created at line 55.
+    Found 10-bit comparator greatequal for signal <vidon$cmp_ge0000> created at line 66.
+    Found 10-bit comparator greatequal for signal <vidon$cmp_ge0001> created at line 66.
+    Found 10-bit comparator less for signal <vidon$cmp_lt0000> created at line 66.
+    Found 10-bit comparator less for signal <vidon$cmp_lt0001> created at line 66.
+    Found 10-bit comparator less for signal <vsyncm$cmp_lt0000> created at line 57.
     Summary:
 	inferred   2 Counter(s).
 	inferred   1 D-type flip-flop(s).
@@ -176,7 +183,7 @@ Unit <vga_640x480> synthesized.
 
 
 Synthesizing Unit <video>.
-    Related source file is "C:/Users/Propietario/Desktop/video.vhd".
+    Related source file is "C:/Users/Propietario/Desktop/DLP/ControladorVGA_FPGA/VGA/video.vhd".
 WARNING:Xst:647 - Input <vidon> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
     Found 10-bit comparator greatequal for signal <azul$cmp_ge0000> created at line 29.
     Found 10-bit comparator greatequal for signal <azul$cmp_ge0001> created at line 29.
@@ -190,7 +197,7 @@ Unit <video> synthesized.
 
 
 Synthesizing Unit <clkdiv>.
-    Related source file is "C:/Users/Propietario/Desktop/clkdiv.vhd".
+    Related source file is "C:/Users/Propietario/Desktop/DLP/ControladorVGA_FPGA/VGA/clkdiv.vhd".
     Found 1-bit register for signal <clk25p>.
     Found 17-bit up counter for signal <divclk>.
     Summary:
@@ -213,7 +220,7 @@ Unit <Lectura> synthesized.
 
 
 Synthesizing Unit <top_vga>.
-    Related source file is "C:/Users/Propietario/Desktop/top_vga.vhd".
+    Related source file is "C:/Users/Propietario/Desktop/DLP/ControladorVGA_FPGA/VGA/top_vga.vhd".
 Unit <top_vga> synthesized.
 
 
@@ -306,7 +313,7 @@ Optimization Goal                  : Speed
 Keep Hierarchy                     : No
 
 Design Statistics
-# IOs                              : 15
+# IOs                              : 17
 
 Cell Usage :
 # BELS                             : 180
@@ -329,9 +336,9 @@ Cell Usage :
 # Clock Buffers                    : 3
 #      BUFG                        : 2
 #      BUFGP                       : 1
-# IO Buffers                       : 14
+# IO Buffers                       : 16
 #      IBUF                        : 2
-#      OBUF                        : 12
+#      OBUF                        : 14
 =========================================================================
 
 Device utilization summary:
@@ -342,8 +349,8 @@ Selected Device : 3s500efg320-4
  Number of Slices:                       57  out of   4656     1%  
  Number of Slice Flip Flops:             59  out of   9312     0%  
  Number of 4 input LUTs:                107  out of   9312     1%  
- Number of IOs:                          15
- Number of bonded IOBs:                  15  out of    232     6%  
+ Number of IOs:                          17
+ Number of bonded IOBs:                  17  out of    232     7%  
  Number of GCLKs:                         3  out of     24    12%  
 
 ---------------------------
@@ -559,7 +566,7 @@ Offset:              4.880ns (Levels of Logic = 1)
 
 =========================================================================
 Timing constraint: Default OFFSET OUT AFTER for Clock 'U3/clk25p1'
-  Total number of paths / destination ports: 371 / 10
+  Total number of paths / destination ports: 390 / 12
 -------------------------------------------------------------------------
 Offset:              10.926ns (Levels of Logic = 6)
   Source:            U1/hcs_4 (FF)
@@ -604,14 +611,14 @@ Offset:              5.582ns (Levels of Logic = 2)
 =========================================================================
 
 
-Total REAL time to Xst completion: 6.00 secs
-Total CPU time to Xst completion: 5.86 secs
+Total REAL time to Xst completion: 9.00 secs
+Total CPU time to Xst completion: 9.20 secs
  
 --> 
 
-Total memory usage is 4503464 kilobytes
+Total memory usage is 4504052 kilobytes
 
 Number of errors   :    0 (   0 filtered)
-Number of warnings :    4 (   0 filtered)
+Number of warnings :   12 (   0 filtered)
 Number of infos    :    0 (   0 filtered)
 

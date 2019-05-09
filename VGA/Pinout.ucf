@@ -1,0 +1,31 @@
+NET "rojo(0)" LOC = "R9";
+NET "rojo(1)" LOC = "T8";
+NET "rojo(2)" LOC = "R8";
+
+NET "verde(0)" LOC = "N8";
+NET "verde(1)" LOC = "P8";
+NET "verde(2)" LOC = "P6";
+
+NET "azul(0)" LOC = "U5";
+NET "azul(1)" LOC = "U4";
+
+NET "hsync" LOC = "T4";
+NET "vsync" LOC = "U3";
+
+NET "hsyncmeasure" LOC ="P17";
+NET "vsyncmeasure" LOC ="R16";
+
+NET "mclk" LOC = "B8";
+NET "clr" LOC = "B18";
+NET "rx"		LOC="R15";
+NET "clk"	LOC="M13";
+NET "cs"		LOC="R18";
+
+#NET "data(7)"	LOC = "R17";
+#NET "data(6)"	LOC = "N17";
+#NET "data(5)"	LOC = "L13";
+#NET "data(4)"	LOC = "L14";
+#NET "data(3)"	LOC = "K17";
+#NET "data(2)"	LOC = "K18";
+#NET "data(1)"	LOC = "H18";
+#NET "data(0)"	LOC = "G18";

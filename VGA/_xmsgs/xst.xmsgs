@@ -5,7 +5,31 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
-<msg type="warning" file="Xst" num="819" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Propietario/Desktop/video.vhd</arg>&quot; line <arg fmt="%d" index="2">27</arg>: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/top_vga</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/Propietario/Desktop/top_vga.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Propietario/Desktop/DLP/ControladorVGA_FPGA/VGA/top_vga.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/top_vga/top_vga</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/Propietario/Desktop/top_vga.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Propietario/Desktop/DLP/ControladorVGA_FPGA/VGA/top_vga.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/clkdiv</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/Propietario/Desktop/clkdiv.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Propietario/Desktop/DLP/ControladorVGA_FPGA/VGA/clkdiv.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/clkdiv/clkdiv</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/Propietario/Desktop/clkdiv.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Propietario/Desktop/DLP/ControladorVGA_FPGA/VGA/clkdiv.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/vga_640x480</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/Propietario/Desktop/vga_640x480.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Propietario/Desktop/DLP/ControladorVGA_FPGA/VGA/vga_640x480.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/vga_640x480/vga_640x480</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/Propietario/Desktop/vga_640x480.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Propietario/Desktop/DLP/ControladorVGA_FPGA/VGA/vga_640x480.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/video</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/Propietario/Desktop/video.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Propietario/Desktop/DLP/ControladorVGA_FPGA/VGA/video.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/video/video</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/Propietario/Desktop/video.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Propietario/Desktop/DLP/ControladorVGA_FPGA/VGA/video.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="Xst" num="819" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Propietario/Desktop/DLP/ControladorVGA_FPGA/VGA/video.vhd</arg>&quot; line <arg fmt="%d" index="2">27</arg>: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
 <arg fmt="%s" index="3">&lt;data&gt;</arg>
 </msg>
 
