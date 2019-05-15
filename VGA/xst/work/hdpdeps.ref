@@ -1,42 +1,43 @@
 V3 23
 FL C:/Users/Propietario/Desktop/clkdiv.vhd 2019/05/02.21:34:16 P.20131013
 FL C:/Users/Propietario/Desktop/DLP/ControladorVGA_FPGA/VGA/clkdiv.vhd 2019/05/02.21:34:16 P.20131013
-EN work/clkdiv 1557420167 \
+EN work/clkdiv 1557885574 \
       FL C:/Users/Propietario/Desktop/DLP/ControladorVGA_FPGA/VGA/clkdiv.vhd \
       PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179 \
       PB ieee/std_logic_arith 1381692177
-AR work/clkdiv/clkdiv 1557420168 \
+AR work/clkdiv/clkdiv 1557885575 \
       FL C:/Users/Propietario/Desktop/DLP/ControladorVGA_FPGA/VGA/clkdiv.vhd \
-      EN work/clkdiv 1557420167
+      EN work/clkdiv 1557885574
 FL C:/Users/Propietario/Desktop/DLP/ControladorVGA_FPGA/VGA/Lectura.vhd 2019/05/02.22:06:08 P.20131013
-EN work/Lectura 1557420169 \
+EN work/Lectura 1557885576 \
       FL C:/Users/Propietario/Desktop/DLP/ControladorVGA_FPGA/VGA/Lectura.vhd \
       PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179 \
       PB ieee/std_logic_arith 1381692177
-AR work/Lectura/arch 1557420170 \
+AR work/Lectura/arch 1557885577 \
       FL C:/Users/Propietario/Desktop/DLP/ControladorVGA_FPGA/VGA/Lectura.vhd \
-      EN work/Lectura 1557420169
-FL C:/Users/Propietario/Desktop/DLP/ControladorVGA_FPGA/VGA/top_vga.vhd 2019/05/03.10:36:38 P.20131013
-EN work/top_vga 1557420171 \
+      EN work/Lectura 1557885576
+FL C:/Users/Propietario/Desktop/DLP/ControladorVGA_FPGA/VGA/top_vga.vhd 2019/05/09.12:42:07 P.20131013
+EN work/top_vga 1557885578 \
       FL C:/Users/Propietario/Desktop/DLP/ControladorVGA_FPGA/VGA/top_vga.vhd \
       PB ieee/std_logic_1164 1381692176
-AR work/top_vga/top_vga 1557420172 \
+AR work/top_vga/top_vga 1557885579 \
       FL C:/Users/Propietario/Desktop/DLP/ControladorVGA_FPGA/VGA/top_vga.vhd \
-      EN work/top_vga 1557420171 CP vga_640x480 CP video CP clkdiv CP Lectura
+      EN work/top_vga 1557885578 CP vga_640x480 CP video CP clkdiv CP Lectura
 FL C:/Users/Propietario/Desktop/DLP/ControladorVGA_FPGA/VGA/vga_640x480.vhd 2019/05/03.10:32:52 P.20131013
-EN work/vga_640x480 1557420163 \
+EN work/vga_640x480 1557885570 \
       FL C:/Users/Propietario/Desktop/DLP/ControladorVGA_FPGA/VGA/vga_640x480.vhd \
       PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
-AR work/vga_640x480/vga_640x480 1557420164 \
+AR work/vga_640x480/vga_640x480 1557885571 \
       FL C:/Users/Propietario/Desktop/DLP/ControladorVGA_FPGA/VGA/vga_640x480.vhd \
-      EN work/vga_640x480 1557420163
-FL C:/Users/Propietario/Desktop/DLP/ControladorVGA_FPGA/VGA/video.vhd 2019/05/02.23:21:24 P.20131013
-EN work/video 1557420165 \
+      EN work/vga_640x480 1557885570
+FL C:/Users/Propietario/Desktop/DLP/ControladorVGA_FPGA/VGA/video.vhd 2019/05/14.20:59:26 P.20131013
+EN work/video 1557885572 \
       FL C:/Users/Propietario/Desktop/DLP/ControladorVGA_FPGA/VGA/video.vhd \
-      PB ieee/std_logic_1164 1381692176
-AR work/video/video 1557420166 \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179 \
+      PB ieee/std_logic_arith 1381692177
+AR work/video/video 1557885573 \
       FL C:/Users/Propietario/Desktop/DLP/ControladorVGA_FPGA/VGA/video.vhd \
-      EN work/video 1557420165
+      EN work/video 1557885572
 FL C:/Users/Propietario/Desktop/top_vga.vhd 2019/05/03.10:36:38 P.20131013
 FL C:/Users/Propietario/Desktop/vga_640x480.vhd 2019/05/03.10:32:52 P.20131013
 FL C:/Users/Propietario/Desktop/video.vhd 2019/05/02.23:21:24 P.20131013
