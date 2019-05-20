@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2019-05-14T20:11:02</DateModified>
+  <DateModified>2019-05-20T11:26:53</DateModified>
   <ModuleName>top_vga</ModuleName>
-  <SummaryTimeStamp>Unknown</SummaryTimeStamp>
+  <SummaryTimeStamp>2019-05-20T10:55:56</SummaryTimeStamp>
   <SavedFilePath>C:/Users/Propietario/Desktop/DLP/ControladorVGA_FPGA/VGA/iseconfig/top_vga.xreport</SavedFilePath>
   <ImplementationReportsDirectory>C:/Users/Propietario/Desktop/DLP/ControladorVGA_FPGA/VGA\</ImplementationReportsDirectory>
   <DateInitialized>2019-05-02T18:52:35</DateInitialized>

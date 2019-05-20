@@ -140,8 +140,7 @@ Analyzing Entity <vga_640x480> in library <work> (Architecture <vga_640x480>).
 Entity <vga_640x480> analyzed. Unit <vga_640x480> generated.
 
 Analyzing Entity <video> in library <work> (Architecture <video>).
-WARNING:Xst:819 - "C:/Users/Propietario/Desktop/DLP/ControladorVGA_FPGA/VGA/video.vhd" line 69: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
-   <data>, <rojo>, <verde>, <azul>
+INFO:Xst:1561 - "C:/Users/Propietario/Desktop/DLP/ControladorVGA_FPGA/VGA/video.vhd" line 132: Mux is complete : default of case is discarded
 Entity <video> analyzed. Unit <video> generated.
 
 Analyzing Entity <clkdiv> in library <work> (Architecture <clkdiv>).
@@ -178,31 +177,55 @@ Unit <vga_640x480> synthesized.
 Synthesizing Unit <video>.
     Related source file is "C:/Users/Propietario/Desktop/DLP/ControladorVGA_FPGA/VGA/video.vhd".
 WARNING:Xst:647 - Input <vidon> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
-    Found 10-bit adder for signal <azul$add0000> created at line 26.
-    Found 10-bit adder for signal <azul$add0001> created at line 26.
-    Found 10-bit adder for signal <azul$add0002> created at line 30.
-    Found 10-bit adder for signal <azul$add0003> created at line 30.
-    Found 10-bit adder for signal <azul$add0004> created at line 40.
-    Found 10-bit adder for signal <azul$add0005> created at line 40.
-    Found 10-bit comparator greatequal for signal <azul$cmp_ge0000> created at line 26.
-    Found 10-bit comparator greatequal for signal <azul$cmp_ge0001> created at line 26.
-    Found 10-bit comparator greatequal for signal <azul$cmp_ge0002> created at line 30.
-    Found 10-bit comparator greatequal for signal <azul$cmp_ge0003> created at line 30.
-    Found 10-bit comparator greatequal for signal <azul$cmp_ge0004> created at line 35.
-    Found 10-bit comparator greatequal for signal <azul$cmp_ge0005> created at line 40.
-    Found 10-bit comparator greatequal for signal <azul$cmp_ge0006> created at line 45.
-    Found 10-bit comparator greatequal for signal <azul$cmp_ge0007> created at line 55.
-    Found 10-bit comparator lessequal for signal <azul$cmp_le0000> created at line 26.
-    Found 10-bit comparator lessequal for signal <azul$cmp_le0001> created at line 26.
-    Found 10-bit comparator lessequal for signal <azul$cmp_le0002> created at line 30.
-    Found 10-bit comparator lessequal for signal <azul$cmp_le0003> created at line 30.
-    Found 10-bit comparator lessequal for signal <azul$cmp_le0004> created at line 35.
-    Found 10-bit comparator lessequal for signal <azul$cmp_le0005> created at line 40.
-    Found 10-bit comparator lessequal for signal <azul$cmp_le0006> created at line 45.
-    Found 10-bit comparator lessequal for signal <azul$cmp_le0007> created at line 55.
+    Found 16x7-bit ROM for signal <datoDecenas>.
+    Found 4x7-bit ROM for signal <datoCentenas>.
+    Found 16x7-bit ROM for signal <datoUnidades>.
+    Found 10-bit comparator greatequal for signal <colorExtC$cmp_ge0000> created at line 41.
+    Found 10-bit comparator greatequal for signal <colorExtC$cmp_ge0001> created at line 46.
+    Found 10-bit comparator greatequal for signal <colorExtC$cmp_ge0002> created at line 58.
+    Found 10-bit comparator lessequal for signal <colorExtC$cmp_le0000> created at line 41.
+    Found 10-bit comparator lessequal for signal <colorExtC$cmp_le0001> created at line 46.
+    Found 10-bit comparator lessequal for signal <colorExtC$cmp_le0002> created at line 58.
+    Found 10-bit comparator greatequal for signal <colorExtD$cmp_ge0000> created at line 41.
+    Found 10-bit comparator greatequal for signal <colorExtD$cmp_ge0001> created at line 46.
+    Found 10-bit comparator greatequal for signal <colorExtD$cmp_ge0002> created at line 58.
+    Found 10-bit comparator lessequal for signal <colorExtD$cmp_le0000> created at line 41.
+    Found 10-bit comparator lessequal for signal <colorExtD$cmp_le0001> created at line 46.
+    Found 10-bit comparator lessequal for signal <colorExtD$cmp_le0002> created at line 58.
+    Found 10-bit comparator greatequal for signal <colorExtU$cmp_ge0000> created at line 41.
+    Found 10-bit comparator greatequal for signal <colorExtU$cmp_ge0001> created at line 41.
+    Found 10-bit comparator greatequal for signal <colorExtU$cmp_ge0002> created at line 46.
+    Found 10-bit comparator greatequal for signal <colorExtU$cmp_ge0003> created at line 46.
+    Found 10-bit comparator greatequal for signal <colorExtU$cmp_ge0004> created at line 52.
+    Found 10-bit comparator greatequal for signal <colorExtU$cmp_ge0005> created at line 58.
+    Found 10-bit comparator greatequal for signal <colorExtU$cmp_ge0006> created at line 64.
+    Found 10-bit comparator greatequal for signal <colorExtU$cmp_ge0007> created at line 76.
+    Found 10-bit comparator lessequal for signal <colorExtU$cmp_le0000> created at line 41.
+    Found 10-bit comparator lessequal for signal <colorExtU$cmp_le0001> created at line 41.
+    Found 10-bit comparator lessequal for signal <colorExtU$cmp_le0002> created at line 46.
+    Found 10-bit comparator lessequal for signal <colorExtU$cmp_le0003> created at line 46.
+    Found 10-bit comparator lessequal for signal <colorExtU$cmp_le0004> created at line 52.
+    Found 10-bit comparator lessequal for signal <colorExtU$cmp_le0005> created at line 58.
+    Found 10-bit comparator lessequal for signal <colorExtU$cmp_le0006> created at line 64.
+    Found 10-bit comparator lessequal for signal <colorExtU$cmp_le0007> created at line 76.
+    Found 5-bit comparator greater for signal <z_11$cmp_gt0000> created at line 99.
+    Found 5-bit comparator greater for signal <z_11$cmp_gt0001> created at line 99.
+    Found 5-bit comparator greater for signal <z_11$cmp_gt0002> created at line 99.
+    Found 5-bit comparator greater for signal <z_11$cmp_gt0003> created at line 99.
+    Found 5-bit comparator greater for signal <z_11$cmp_gt0004> created at line 99.
+    Found 4-bit adder for signal <z_11_8$add0000> created at line 100.
+    Found 4-bit adder for signal <z_11_8$add0001> created at line 100.
+    Found 4-bit adder for signal <z_11_8$add0002> created at line 100.
+    Found 4-bit adder for signal <z_11_8$add0003> created at line 100.
+    Found 4-bit adder for signal <z_11_8$add0004> created at line 100.
+    Found 5-bit comparator greater for signal <z_15$cmp_gt0000> created at line 105.
+    Found 5-bit comparator greater for signal <z_15$cmp_gt0001> created at line 105.
+    Found 4-bit adder for signal <z_15_12$add0000> created at line 106.
+    Found 4-bit adder for signal <z_15_12$add0001> created at line 106.
     Summary:
-	inferred   6 Adder/Subtractor(s).
-	inferred  16 Comparator(s).
+	inferred   3 ROM(s).
+	inferred   7 Adder/Subtractor(s).
+	inferred  35 Comparator(s).
 Unit <video> synthesized.
 
 
@@ -238,8 +261,11 @@ Unit <top_vga> synthesized.
 HDL Synthesis Report
 
 Macro Statistics
-# Adders/Subtractors                                   : 6
- 10-bit adder                                          : 6
+# ROMs                                                 : 3
+ 16x7-bit ROM                                          : 2
+ 4x7-bit ROM                                           : 1
+# Adders/Subtractors                                   : 7
+ 4-bit adder                                           : 7
 # Counters                                             : 4
  10-bit up counter                                     : 2
  17-bit up counter                                     : 1
@@ -247,10 +273,11 @@ Macro Statistics
 # Registers                                            : 11
  1-bit register                                        : 10
  8-bit register                                        : 1
-# Comparators                                          : 22
- 10-bit comparator greatequal                          : 10
+# Comparators                                          : 41
+ 10-bit comparator greatequal                          : 16
  10-bit comparator less                                : 4
- 10-bit comparator lessequal                           : 8
+ 10-bit comparator lessequal                           : 14
+ 5-bit comparator greater                              : 7
 
 =========================================================================
 
@@ -263,18 +290,22 @@ Macro Statistics
 Advanced HDL Synthesis Report
 
 Macro Statistics
-# Adders/Subtractors                                   : 6
- 10-bit adder                                          : 6
+# ROMs                                                 : 3
+ 16x7-bit ROM                                          : 2
+ 4x7-bit ROM                                           : 1
+# Adders/Subtractors                                   : 7
+ 4-bit adder                                           : 7
 # Counters                                             : 4
  10-bit up counter                                     : 2
  17-bit up counter                                     : 1
  4-bit up counter                                      : 1
 # Registers                                            : 18
  Flip-Flops                                            : 18
-# Comparators                                          : 22
- 10-bit comparator greatequal                          : 10
+# Comparators                                          : 41
+ 10-bit comparator greatequal                          : 16
  10-bit comparator less                                : 4
- 10-bit comparator lessequal                           : 8
+ 10-bit comparator lessequal                           : 14
+ 5-bit comparator greater                              : 7
 
 =========================================================================
 
@@ -292,7 +323,7 @@ Optimizing unit <Lectura> ...
 
 Mapping all equations...
 Building and optimizing final netlist ...
-Found area constraint ratio of 100 (+ 5) on block top_vga, actual ratio is 2.
+Found area constraint ratio of 100 (+ 5) on block top_vga, actual ratio is 3.
 
 Final Macro Processing ...
 
@@ -330,18 +361,18 @@ Design Statistics
 # IOs                              : 17
 
 Cell Usage :
-# BELS                             : 346
+# BELS                             : 313
 #      GND                         : 1
-#      INV                         : 9
-#      LUT1                        : 35
-#      LUT2                        : 57
+#      INV                         : 6
+#      LUT1                        : 34
+#      LUT2                        : 32
 #      LUT2_L                      : 1
-#      LUT3                        : 33
-#      LUT4                        : 74
+#      LUT3                        : 21
+#      LUT4                        : 133
 #      LUT4_D                      : 1
 #      LUT4_L                      : 1
-#      MUXCY                       : 87
-#      MUXF5                       : 9
+#      MUXCY                       : 34
+#      MUXF5                       : 11
 #      VCC                         : 1
 #      XORCY                       : 37
 # FlipFlops/Latches                : 59
@@ -361,9 +392,9 @@ Device utilization summary:
 
 Selected Device : 3s500efg320-4 
 
- Number of Slices:                      112  out of   4656     2%  
+ Number of Slices:                      127  out of   4656     2%  
  Number of Slice Flip Flops:             59  out of   9312     0%  
- Number of 4 input LUTs:                211  out of   9312     2%  
+ Number of 4 input LUTs:                229  out of   9312     2%  
  Number of IOs:                          17
  Number of bonded IOBs:                  17  out of    232     7%  
  Number of GCLKs:                         3  out of     24    12%  
@@ -407,9 +438,9 @@ Timing Summary:
 ---------------
 Speed Grade: -4
 
-   Minimum period: 5.519ns (Maximum Frequency: 181.192MHz)
+   Minimum period: 5.733ns (Maximum Frequency: 174.429MHz)
    Minimum input arrival time before clock: 4.690ns
-   Maximum output required time after clock: 14.166ns
+   Maximum output required time after clock: 23.176ns
    Maximum combinational path delay: No path found
 
 Timing Detail:
@@ -456,34 +487,34 @@ Delay:               4.292ns (Levels of Logic = 17)
 
 =========================================================================
 Timing constraint: Default period analysis for Clock 'U3/clk25p1'
-  Clock period: 5.519ns (frequency: 181.192MHz)
+  Clock period: 5.733ns (frequency: 174.429MHz)
   Total number of paths / destination ports: 330 / 31
 -------------------------------------------------------------------------
-Delay:               5.519ns (Levels of Logic = 10)
-  Source:            U1/hcs_2 (FF)
-  Destination:       U1/hcs_9 (FF)
+Delay:               5.733ns (Levels of Logic = 10)
+  Source:            U1/hcs_1 (FF)
+  Destination:       U1/hcs_8 (FF)
   Source Clock:      U3/clk25p1 rising
   Destination Clock: U3/clk25p1 rising
 
-  Data Path: U1/hcs_2 to U1/hcs_9
+  Data Path: U1/hcs_1 to U1/hcs_8
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDC:C->Q              9   0.591   0.995  U1/hcs_2 (U1/hcs_2)
-     LUT1:I0->O            1   0.704   0.000  U1/Mcount_hcs_cy<2>_rt (U1/Mcount_hcs_cy<2>_rt)
-     MUXCY:S->O            1   0.464   0.000  U1/Mcount_hcs_cy<2> (U1/Mcount_hcs_cy<2>)
+     FDC:C->Q             16   0.591   1.209  U1/hcs_1 (U1/hcs_1)
+     LUT1:I0->O            1   0.704   0.000  U1/Mcount_hcs_cy<1>_rt (U1/Mcount_hcs_cy<1>_rt)
+     MUXCY:S->O            1   0.464   0.000  U1/Mcount_hcs_cy<1> (U1/Mcount_hcs_cy<1>)
+     MUXCY:CI->O           1   0.059   0.000  U1/Mcount_hcs_cy<2> (U1/Mcount_hcs_cy<2>)
      MUXCY:CI->O           1   0.059   0.000  U1/Mcount_hcs_cy<3> (U1/Mcount_hcs_cy<3>)
      MUXCY:CI->O           1   0.059   0.000  U1/Mcount_hcs_cy<4> (U1/Mcount_hcs_cy<4>)
      MUXCY:CI->O           1   0.059   0.000  U1/Mcount_hcs_cy<5> (U1/Mcount_hcs_cy<5>)
      MUXCY:CI->O           1   0.059   0.000  U1/Mcount_hcs_cy<6> (U1/Mcount_hcs_cy<6>)
      MUXCY:CI->O           1   0.059   0.000  U1/Mcount_hcs_cy<7> (U1/Mcount_hcs_cy<7>)
-     MUXCY:CI->O           0   0.059   0.000  U1/Mcount_hcs_cy<8> (U1/Mcount_hcs_cy<8>)
-     XORCY:CI->O           1   0.804   0.595  U1/Mcount_hcs_xor<9> (U1/Result<9>1)
-     LUT2:I0->O            1   0.704   0.000  U1/Mcount_hcs_eqn_91 (U1/Mcount_hcs_eqn_9)
-     FDC:D                     0.308          U1/hcs_9
+     XORCY:CI->O           1   0.804   0.595  U1/Mcount_hcs_xor<8> (U1/Result<8>1)
+     LUT2:I0->O            1   0.704   0.000  U1/Mcount_hcs_eqn_81 (U1/Mcount_hcs_eqn_8)
+     FDC:D                     0.308          U1/hcs_8
     ----------------------------------------
-    Total                      5.519ns (3.929ns logic, 1.590ns route)
-                                       (71.2% logic, 28.8% route)
+    Total                      5.733ns (3.929ns logic, 1.804ns route)
+                                       (68.5% logic, 31.5% route)
 
 =========================================================================
 Timing constraint: Default period analysis for Clock 'U3/divclk_111'
@@ -588,67 +619,78 @@ Offset:              4.880ns (Levels of Logic = 1)
 
 =========================================================================
 Timing constraint: Default OFFSET OUT AFTER for Clock 'U3/clk25p1'
-  Total number of paths / destination ports: 1222 / 12
+  Total number of paths / destination ports: 3870 / 12
 -------------------------------------------------------------------------
-Offset:              12.127ns (Levels of Logic = 7)
-  Source:            U1/vcs_1 (FF)
+Offset:              18.226ns (Levels of Logic = 12)
+  Source:            U1/hcs_2 (FF)
   Destination:       azul<1> (PAD)
   Source Clock:      U3/clk25p1 rising
 
-  Data Path: U1/vcs_1 to azul<1>
+  Data Path: U1/hcs_2 to azul<1>
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDCE:C->Q             9   0.591   0.995  U1/vcs_1 (U1/vcs_1)
-     LUT4:I0->O            1   0.704   0.499  U2/azul<0>1221_SW0 (N33)
-     LUT4:I1->O            1   0.704   0.455  U2/azul<0>1221 (U2/azul<0>1221)
-     LUT4:I2->O            1   0.704   0.424  U2/azul<0>1267 (U2/azul<0>1267)
-     LUT4:I3->O            1   0.704   0.455  U2/azul<0>1352 (U2/azul<0>1352)
-     LUT4:I2->O            8   0.704   0.792  U2/azul<0>1367 (U2/azul<0>1367)
-     LUT3:I2->O            1   0.704   0.420  U2/verde<2>1 (verde_2_OBUF)
+     FDC:C->Q             14   0.591   1.175  U1/hcs_2 (U1/hcs_2)
+     LUT2:I0->O            5   0.704   0.808  U2/colorExtC_cmp_ge000021 (U2/colorExtC_cmp_ge000222)
+     LUT4:I0->O            1   0.704   0.424  U2/colorExtU_cmp_ge0005211_SW0 (N40)
+     LUT4:I3->O            1   0.704   0.424  U2/colorExtU_cmp_ge0005211 (U2/colorExtU_cmp_ge0005211)
+     LUT4:I3->O            3   0.704   0.706  U2/azul<0>1405 (U2/azul<0>1405)
+     LUT4:I0->O            1   0.704   0.000  U2/azul<0>14061 (U2/azul<0>14061)
+     MUXF5:I0->O           1   0.321   0.424  U2/azul<0>1406_f5 (U2/azul<0>1406)
+     LUT4:I3->O            1   0.704   0.499  U2/azul<0>1482_SW0 (N56)
+     LUT4:I1->O            1   0.704   0.595  U2/azul<0>1482 (U2/azul<0>1482)
+     LUT4:I0->O            1   0.704   0.595  U2/azul<0>1662_SW0 (N46)
+     LUT4:I0->O            8   0.704   0.932  U2/azul<0>1662 (U2/azul<0>1662)
+     LUT4:I0->O            1   0.704   0.420  U2/verde<2>1 (verde_2_OBUF)
      OBUF:I->O                 3.272          verde_2_OBUF (verde<2>)
     ----------------------------------------
-    Total                     12.127ns (8.087ns logic, 4.040ns route)
-                                       (66.7% logic, 33.3% route)
+    Total                     18.226ns (11.224ns logic, 7.002ns route)
+                                       (61.6% logic, 38.4% route)
 
 =========================================================================
 Timing constraint: Default OFFSET OUT AFTER for Clock 'U3/divclk_111'
-  Total number of paths / destination ports: 2816 / 8
+  Total number of paths / destination ports: 65032 / 8
 -------------------------------------------------------------------------
-Offset:              14.166ns (Levels of Logic = 9)
-  Source:            U4/data_3 (FF)
+Offset:              23.176ns (Levels of Logic = 15)
+  Source:            U4/data_6 (FF)
   Destination:       azul<1> (PAD)
   Source Clock:      U3/divclk_111 rising
 
-  Data Path: U4/data_3 to azul<1>
+  Data Path: U4/data_6 to azul<1>
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDE:C->Q             23   0.591   1.377  U4/data_3 (U4/data_3)
-     LUT4:I0->O            7   0.704   0.787  U2/azul_add0005<6>11 (U2/azul_add0005<6>_bdd0)
-     LUT4:I1->O            1   0.704   0.000  U2/azul_add0005<9>1 (U2/azul_add0005<9>1)
-     MUXF5:I1->O           1   0.321   0.595  U2/azul_add0005<9>_f5 (U2/azul_add0005<9>)
-     LUT2:I0->O            1   0.704   0.000  U2/Mcompar_azul_cmp_le0005_lut<8> (U2/Mcompar_azul_cmp_le0005_lut<8>)
-     MUXCY:S->O            1   0.864   0.499  U2/Mcompar_azul_cmp_le0005_cy<8> (U2/azul_cmp_le0005)
-     LUT2:I1->O            1   0.704   0.424  U2/azul<0>1184 (U2/azul<0>1184)
-     LUT4:I3->O            8   0.704   0.792  U2/azul<0>1367 (U2/azul<0>1367)
-     LUT3:I2->O            1   0.704   0.420  U2/verde<2>1 (verde_2_OBUF)
+     FDE:C->Q             11   0.591   1.108  U4/data_6 (U4/data_6)
+     LUT4:I0->O            5   0.704   0.712  U2/z_11_mux00011 (U2/z_11_mux0001)
+     LUT4:I1->O            7   0.704   0.743  U2/z_11_mux000211 (U2/N49)
+     LUT4:I2->O            4   0.704   0.762  U2/z_9_mux00021 (U2/Madd_z_11_8_add0003_lut<2>)
+     LUT3:I0->O            3   0.704   0.706  U2/z_11_mux000311 (U2/N50)
+     LUT4:I0->O            2   0.704   0.622  U2/Madd_z_15_12_add0001_cy<1>11 (U2/Madd_z_15_12_add0001_cy<1>)
+     LUT3:I0->O            1   0.704   0.000  U2/z_15_mux000136_G (N89)
+     MUXF5:I1->O           5   0.321   0.808  U2/z_15_mux000136 (U2/z_15_mux0001)
+     LUT3:I0->O            7   0.704   0.743  U2/z_12_mux00011 (U2/z_12_mux0001)
+     LUT4:I2->O            1   0.704   0.595  U2/azul<0>1473 (U2/azul<0>1473)
+     LUT4:I0->O            1   0.704   0.499  U2/azul<0>1482_SW0 (N56)
+     LUT4:I1->O            1   0.704   0.595  U2/azul<0>1482 (U2/azul<0>1482)
+     LUT4:I0->O            1   0.704   0.595  U2/azul<0>1662_SW0 (N46)
+     LUT4:I0->O            8   0.704   0.932  U2/azul<0>1662 (U2/azul<0>1662)
+     LUT4:I0->O            1   0.704   0.420  U2/verde<2>1 (verde_2_OBUF)
      OBUF:I->O                 3.272          verde_2_OBUF (verde<2>)
     ----------------------------------------
-    Total                     14.166ns (9.272ns logic, 4.894ns route)
-                                       (65.5% logic, 34.5% route)
+    Total                     23.176ns (13.336ns logic, 9.840ns route)
+                                       (57.5% logic, 42.5% route)
 
 =========================================================================
 
 
-Total REAL time to Xst completion: 6.00 secs
-Total CPU time to Xst completion: 6.32 secs
+Total REAL time to Xst completion: 7.00 secs
+Total CPU time to Xst completion: 7.58 secs
  
 --> 
 
-Total memory usage is 4503432 kilobytes
+Total memory usage is 4503460 kilobytes
 
 Number of errors   :    0 (   0 filtered)
-Number of warnings :    4 (   0 filtered)
-Number of infos    :    0 (   0 filtered)
+Number of warnings :    3 (   0 filtered)
+Number of infos    :    1 (   0 filtered)
 
