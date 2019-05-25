@@ -5,16 +5,86 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
-<msg type="info" file="Xst" num="1561" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Propietario/Desktop/DLP/ControladorVGA_FPGA/VGA/video.vhd</arg>&quot; line <arg fmt="%d" index="2">132</arg>: Mux is complete : default of case is discarded
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">hc&lt;9:5&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 </msg>
 
-<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">vidon</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">hc&lt;3:0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">vc</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">data</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 </msg>
 
 <msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">reg&lt;0:1&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
 </msg>
 
 <msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">reg&lt;10&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">U4</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">top_vga</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">U4/cont_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">top_vga</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">U4/cont_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">top_vga</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">U4/cont_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">top_vga</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">U4/cont_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">top_vga</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">U4/data_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">top_vga</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">U4/data_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">top_vga</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">U4/data_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">top_vga</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">U4/data_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">top_vga</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">U4/data_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">top_vga</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">U4/data_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">top_vga</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">U4/data_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">top_vga</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">U4/data_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">top_vga</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">U4/reg_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">top_vga</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">U4/reg_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">top_vga</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">U4/reg_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">top_vga</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">U4/reg_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">top_vga</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">U4/reg_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">top_vga</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">U4/reg_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">top_vga</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">U4/reg_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">top_vga</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">U4/reg_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">top_vga</arg>&gt;.
 </msg>
 
 </messages>

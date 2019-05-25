@@ -1,25 +1,25 @@
 //! **************************************************************************
-// Written by: Map P.20131013 on Mon May 20 12:00:38 2019
+// Written by: Map P.20131013 on Sat May 25 13:22:55 2019
 //! **************************************************************************
 
 SCHEMATIC START;
-COMP "cs" LOCATE = SITE "R18" LEVEL 1;
-COMP "clk" LOCATE = SITE "M13" LEVEL 1;
-COMP "azul<0>" LOCATE = SITE "U5" LEVEL 1;
-COMP "azul<1>" LOCATE = SITE "U4" LEVEL 1;
-COMP "clr" LOCATE = SITE "B18" LEVEL 1;
-COMP "verde<0>" LOCATE = SITE "N8" LEVEL 1;
-COMP "rx" LOCATE = SITE "R15" LEVEL 1;
-COMP "verde<1>" LOCATE = SITE "P8" LEVEL 1;
-COMP "verde<2>" LOCATE = SITE "P6" LEVEL 1;
-COMP "hsync" LOCATE = SITE "T4" LEVEL 1;
-COMP "vsyncmeasure" LOCATE = SITE "R16" LEVEL 1;
-COMP "vsync" LOCATE = SITE "U3" LEVEL 1;
 COMP "mclk" LOCATE = SITE "B8" LEVEL 1;
 COMP "hsyncmeasure" LOCATE = SITE "P17" LEVEL 1;
 COMP "rojo<0>" LOCATE = SITE "R9" LEVEL 1;
 COMP "rojo<1>" LOCATE = SITE "T8" LEVEL 1;
 COMP "rojo<2>" LOCATE = SITE "R8" LEVEL 1;
 NET "mclk_BUFGP/IBUFG" BEL "mclk_BUFGP/BUFG.GCLKMUX" USELOCALCONNECT;
+COMP "cs" LOCATE = SITE "R18" LEVEL 1;
+COMP "clk" LOCATE = SITE "M13" LEVEL 1;
+COMP "azul<0>" LOCATE = SITE "U5" LEVEL 1;
+COMP "azul<1>" LOCATE = SITE "U4" LEVEL 1;
+COMP "clr" LOCATE = SITE "B18" LEVEL 1;
+COMP "rx" LOCATE = SITE "R15" LEVEL 1;
+COMP "verde<0>" LOCATE = SITE "N8" LEVEL 1;
+COMP "verde<1>" LOCATE = SITE "P8" LEVEL 1;
+COMP "verde<2>" LOCATE = SITE "P6" LEVEL 1;
+COMP "hsync" LOCATE = SITE "T4" LEVEL 1;
+COMP "vsyncmeasure" LOCATE = SITE "R16" LEVEL 1;
+COMP "vsync" LOCATE = SITE "U3" LEVEL 1;
 SCHEMATIC END;
 

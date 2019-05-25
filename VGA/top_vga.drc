@@ -1,8 +1,11 @@
 Release 14.7 Drc P.20131013 (nt64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
-Mon May 20 12:00:58 2019
+Sat May 25 13:23:20 2019
 
 drc -z top_vga.ncd top_vga.pcf
 
-DRC detected 0 errors and 0 warnings.
+WARNING:PhysDesignRules:367 - The signal <rx_IBUF> is incomplete. The signal
+   does not drive any load pins in the design.
+DRC detected 0 errors and 1 warnings.  Please see the previously displayed
+individual error or warning messages for more details.

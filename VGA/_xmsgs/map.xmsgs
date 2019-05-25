@@ -5,16 +5,16 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
+<msg type="info" file="LIT" num="243" delta="old" >Logical network <arg fmt="%s" index="1">rx_IBUF</arg> has no load.
+</msg>
+
 <msg type="info" file="MapLib" num="562" delta="old" >No environment variables are currently set.
 </msg>
 
 <msg type="info" file="LIT" num="244" delta="old" >All of the single ended outputs in this design are using slew rate limited output drivers. The delay on speed critical single ended outputs can be dramatically reduced by designating them as fast outputs.
 </msg>
 
-<msg type="warning" file="Pack" num="266" delta="new" >The function generator <arg fmt="%s" index="1">U2/azul&lt;0&gt;1511</arg> failed to merge with F5 multiplexer <arg fmt="%s" index="2">U2/azul&lt;0&gt;1905_SW0_SW0_f5</arg>.  <arg fmt="%z" index="3">There is a conflict for the FXMUX.</arg>  The design will exhibit suboptimal timing.
-</msg>
-
-<msg type="warning" file="Pack" num="266" delta="new" >The function generator <arg fmt="%s" index="1">U2/azul&lt;0&gt;1405</arg> failed to merge with F5 multiplexer <arg fmt="%s" index="2">U2/azul&lt;0&gt;1406_f5</arg>.  <arg fmt="%z" index="3">There is a conflict for the FXMUX.</arg>  The design will exhibit suboptimal timing.
+<msg type="warning" file="PhysDesignRules" num="367" delta="old" >The signal &lt;<arg fmt="%s" index="1">rx_IBUF</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
 </msg>
 
 </messages>

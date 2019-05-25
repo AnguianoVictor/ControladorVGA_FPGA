@@ -314,3 +314,23 @@ map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o top_vga
 par -w -intstyle ise -ol high -t 1 top_vga_map.ncd top_vga.ncd top_vga.pcf 
 trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top_vga.twx top_vga.ncd -o top_vga.twr top_vga.pcf -ucf Pinout.ucf 
 bitgen -intstyle ise -f top_vga.ut top_vga.ncd 
+xst -intstyle ise -ifn "C:/Users/Propietario/Desktop/DLP/ControladorVGA_FPGA/VGA/top_vga.xst" -ofn "C:/Users/Propietario/Desktop/DLP/ControladorVGA_FPGA/VGA/top_vga.syr" 
+xst -intstyle ise -ifn "C:/Users/Propietario/Desktop/DLP/ControladorVGA_FPGA/VGA/top_vga.xst" -ofn "C:/Users/Propietario/Desktop/DLP/ControladorVGA_FPGA/VGA/top_vga.syr" 
+xst -intstyle ise -ifn "C:/Users/Propietario/Desktop/DLP/ControladorVGA_FPGA/VGA/top_vga.xst" -ofn "C:/Users/Propietario/Desktop/DLP/ControladorVGA_FPGA/VGA/top_vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Pinout.ucf -p xc3s500e-fg320-4 top_vga.ngc top_vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o top_vga_map.ncd top_vga.ngd top_vga.pcf 
+par -w -intstyle ise -ol high -t 1 top_vga_map.ncd top_vga.ncd top_vga.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top_vga.twx top_vga.ncd -o top_vga.twr top_vga.pcf -ucf Pinout.ucf 
+bitgen -intstyle ise -f top_vga.ut top_vga.ncd 
+xst -intstyle ise -ifn "C:/Users/Propietario/Desktop/DLP/ControladorVGA_FPGA/VGA/top_vga.xst" -ofn "C:/Users/Propietario/Desktop/DLP/ControladorVGA_FPGA/VGA/top_vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Pinout.ucf -p xc3s500e-fg320-4 top_vga.ngc top_vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o top_vga_map.ncd top_vga.ngd top_vga.pcf 
+par -w -intstyle ise -ol high -t 1 top_vga_map.ncd top_vga.ncd top_vga.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top_vga.twx top_vga.ncd -o top_vga.twr top_vga.pcf -ucf Pinout.ucf 
+bitgen -intstyle ise -f top_vga.ut top_vga.ncd 
+xst -intstyle ise -ifn "C:/Users/Propietario/Desktop/DLP/ControladorVGA_FPGA/VGA/top_vga.xst" -ofn "C:/Users/Propietario/Desktop/DLP/ControladorVGA_FPGA/VGA/top_vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Pinout.ucf -p xc3s500e-fg320-4 top_vga.ngc top_vga.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o top_vga_map.ncd top_vga.ngd top_vga.pcf 
+par -w -intstyle ise -ol high -t 1 top_vga_map.ncd top_vga.ncd top_vga.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top_vga.twx top_vga.ncd -o top_vga.twr top_vga.pcf -ucf Pinout.ucf 
+bitgen -intstyle ise -f top_vga.ut top_vga.ncd 
