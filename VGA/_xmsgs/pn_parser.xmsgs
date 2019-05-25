@@ -8,6 +8,18 @@
 <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.    -->
 
 <messages>
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Propietario/Desktop/DLP/ControladorVGA_FPGA/VGA/Lectura.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Propietario/Desktop/DLP/ControladorVGA_FPGA/VGA/clkdiv.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Propietario/Desktop/DLP/ControladorVGA_FPGA/VGA/top_vga.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Propietario/Desktop/DLP/ControladorVGA_FPGA/VGA/vga_640x480.vhd&quot; into library work</arg>
+</msg>
+
 <msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Propietario/Desktop/DLP/ControladorVGA_FPGA/VGA/video.vhd&quot; into library work</arg>
 </msg>
 
